@@ -8,7 +8,9 @@
 .welcome h1{
     font-family: CandL;
     font-size: 40px;
-    padding: auto;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     text-align: center;
     color: #F2F6BC;
     position: static;

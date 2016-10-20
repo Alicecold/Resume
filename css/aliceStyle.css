@@ -20,6 +20,7 @@ html, body{
     color:#F2F6BC;
     text-shadow: 0px 0px 5px #4378A7;
     margin-left: 100px;
+    margin-bottom: 300px;
     padding-top: 10vh;
 }
 .portrait{
@@ -39,4 +40,13 @@ html, body{
     box-shadow: 0px 0px 20px #4378A7;
     background-color: lightblue;
     padding: 10px;
+}
+
+.script{
+    font-family: script;
+    margin: 0px;
+    font-size: 100px;
+    text-align: center;
+    
+    text-shadow: 2px 2px 10px #4378A7;
 }

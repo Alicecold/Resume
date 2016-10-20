@@ -1,0 +1,24 @@
+.portfolio{
+    width: 50%;
+    height: 100%;
+    font-family: script;
+    font-size: 40px;
+}
+.viewer{
+    width: 75%;
+    height: 75%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    background: aliceblue;
+}
+
+.art{
+    
+    margin-left: auto;
+    margin-right: auto;
+    /*max-width: 90%;*/
+    max-height: 80%;
+    display: block;
+}

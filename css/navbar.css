@@ -1,0 +1,26 @@
+#navbar{
+    background-color: #F2F6BC;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px 0px 10px #4378A7;
+    z-index: 20;
+}
+#navbar  a{
+    color: #F4A6A2;
+    font-size: 40px;
+    margin: 0px;
+    padding: 20px;
+    font-family: CandL;
+    text-decoration: none;
+}
+#navbar a:hover{  
+    animation-name: beat;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

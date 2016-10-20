@@ -1,0 +1,25 @@
+.links{
+    font-family: CandL;
+    width: fit-content;
+    padding-top: 50px;
+    padding-bottom: 100vh;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links div{
+    color:white;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.links a:link{
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: none;
+    opacity: 1.0;
+}

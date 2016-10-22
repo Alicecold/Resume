@@ -1,8 +1,8 @@
 .portfolio{
     width: 50%;
     height: 100%;
-    padding-top: 5vh;
-    padding-bottom: 30vh;
+    padding-top: 10vh;
+    padding-bottom: 25vh;
     margin-left: auto;
     margin-right: auto;  
 }
@@ -14,16 +14,17 @@
 }
 
 .viewer#frame{
-    background-color: aliceblue;
-    box-shadow: 0px 0px 5px #4378A7;
+    background-color: #F2F6BC;
+    box-shadow: 2px 2px 5px black;
+    /*border: 1px solid black;*/
 }
 
 .art{
-    /*display: inline-block;*/
     max-height: 60vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
 }
 
 .thumb{
@@ -32,4 +33,13 @@
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 0px;
+
+    transition: opacity 0.5s linear;
+    opacity: 0.5;
+    border: 1px solid black;
+}
+
+.thumb:hover{
+    opacity: 1.0;
+    border: 1px solid black;
 }

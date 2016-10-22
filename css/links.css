@@ -5,6 +5,7 @@
     padding-bottom: 30vh;  
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .links div{
@@ -13,7 +14,6 @@
     text-align: center;
 }
 .links a{
-    color: #F2F6BC;
     transition: opacity 0.5s linear;
 }
 .links a:link{

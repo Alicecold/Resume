@@ -5,7 +5,6 @@
     padding-top: 30vh;
     padding-bottom: 40vh;
     text-align: center;
-    text-shadow: 0px 0px 1px black;
 }
 
 .welcome img{
@@ -14,7 +13,6 @@
 }
 .welcome h1{
     margin: 0px;
-    /*margin-top: 20px;*/
     margin-bottom: 0px;
     position: static;
 }

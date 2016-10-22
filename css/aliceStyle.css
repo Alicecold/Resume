@@ -5,25 +5,29 @@ body {
     background: #A1B2C1;
 }
 
+.alice{
+    text-shadow: 0px 0px 1px black;
+    color: #F2F6BC;
+}
+.alice a{
+    color: #F2F6BC;
+}
 .alice h1 {
     font-family: CandL;
     font-size: 40px;
     margin: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
-    color: #F2F6BC;
 }
 
 .alice h2 {
     font-family: CandL;
     font-size: 20px;
-    color: #F2F6BC;
 }
 
 .alice p {
     font-family: CandL;
     font-size: 15px;
-    color: #F2F6BC;
 }
 
 #wrapper {
@@ -44,7 +48,6 @@ body {
 .about {
     max-width: 500px;
     overflow: auto;
-    text-shadow: 0px 0px 5px #4378A7;
     margin-left: 100px;
     margin-bottom: 300px;
     padding-top: 10vh;
@@ -54,7 +57,7 @@ body {
     height: 100px;
     border-radius: 10%;
     display: block;
-    box-shadow: 0px 0px 20px #4378A7;
+    box-shadow: 0px 0px 2px black;
     background-color: #F2F6BC;;
     padding: 10px;
 }

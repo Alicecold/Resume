@@ -16,7 +16,7 @@
 .viewer#frame{
     background-color: #F2F6BC;
     box-shadow: 2px 2px 5px black;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 
 .art{

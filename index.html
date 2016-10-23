@@ -3,6 +3,7 @@
 
 <head>
 	<title>Looking for Alice?</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/cv.css" />
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css" />
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
@@ -13,35 +14,51 @@
 </head>
 
 <body>
-	<div id="wrapper">
-		<div id="navbar">
-			<a href="#welcome">Home</a>
-			<a href="#about">About Me</a>
-			<a href="#resume">Resume</a>
-			<a href="#portfolio">Portfolio</a>
-			<a href="#links">Links</a>
-		</div>
-		<a name="welcome">
-			<div class="alice welcome">
-				<img class="icon" src="aliceteacup.png"></img>
+	<div id="navbar">
+		<a href="#welcome">Home</a>
+		<a href="#about">About Me</a>
+		<a href="#resume">Resume</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#links">Links</a>
+	</div>
+	<div class="container-fluid" id="wrapper">
+		<a name="welcome"></a>
+		<div class="row alice welcome">
+			<div class="col-md-4"> </div>
+			<div class="col-md-4">
+				<img class="icon" src="assets/aliceteacup.png"></img>
 				<h1>Hi!</h1>
 				<h2>Looking for someone?</h2>
 			</div>
-		</a>
-		<a name="about">
-			<div class="alice about">
+			<div class="col-md-4"> </div>
+		</div>
+
+		<a name="about"></a>
+		<div class="row alice about">
+			<div class="col-md-1"></div>
+			<div class="col-md-5">
 				<h1>Perhaps someone like Alice?</h1>
 				<p>Looking for a Technical Artist (with a bachelors degree in game development), with extended knowledge about a ton of
 					things? There is almost nothing that I don't know something about. I'm coded in some sense since I was eight years old.
 					Among my interests are drawing, photography, writing short stories and video games.</p>
 			</div>
-		</a>
-
-		<a name="resume">
-			<div class="cv">
+			<div class="col-md-6"></div>
+		</div>
+		<a name="resume"></a>
+		<div class="cv">
+			<div class="row">
 				<h1 class="script">Curriculum vitae</h1>
-				<div class="alice cvlittle">Download CV as PDF <a href="AliceDarnerCV.PDF" class="alice cvlink">here</a>!</div>
-				<div class="box">
+			</div>
+			<div class="row alice cvlittle">
+				<div class="col-md-6"></div>
+				<div class="col-md-5">
+					Download CV as PDF <a href="assets/AliceDarnerCV.PDF" class="alice cvlink">here</a>!
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 box">
 					<h1>Education</h1>
 					<p>Newton YH - Application Developer (current)</p>
 					<p>Blekinge Tekniska Högskola (BTH)</p>
@@ -51,11 +68,11 @@
 					<p>Election Worker</p>
 					<h1>Pro-Bono work</h1>
 					<p>WonderLAN - Media and Promotion (Mammas Källare)</p>
-					<p>Responsible for creating promotional artwork (poster),and informational slider before and during the event,
-						often under great time pressure.
+					<p>Responsible for creating promotional artwork (poster),and informational slider before and during the event, often under
+						great time pressure.
 					</p>
 				</div>
-				<div class="box">
+				<div class="col-md-5 box">
 					<h1>Skills</h1>
 					<p>Adobe Photoshop</p>
 					<p>Autodesk Maya</p>
@@ -68,43 +85,58 @@
 					<p>English (fluent)</p>
 				</div>
 			</div>
-		</a>
-		<a name="portfolio">
-			<div class="alice portfolio">
-				<div class="viewer" id="frame">
-					<img class="art" src="flower_tree.jpg"></img>
+		</div>
+		<a name="portfolio"></a>
+		<div class="alice portfolio">
+			<div class="row viewer" >
+				<div class="col-md-3"></div>
+				<div class="col-md-6" id="frame">
+					<img class="art" id="view" src="assets/flower_tree.jpg"></img>
 				</div>
-				<div class="viewer">
-					<img class="thumb" src="flower_tree.jpg"></img>
-					<img class="thumb" src="flower_tree.jpg"></img>
+				<div class="col-md-3"></div>
+			</div>
+			<div class="row viewer">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<img class="thumb" id="thumb1" onclick="thumbling('assets/flower_tree.jpg')" src="assets/flower_tree.jpg"></img>
+					<img class="thumb" id="thumb2" onclick="thumbling('assets/pandora.jpg')" src="assets/pandora.jpg"></img>
 				</div>
-		</a>
-		<a name="links">
+				<div class="col-md-3"></div>
+			</div>
+			<a name="links"></a>
 			<div class="alice links">
 				<h1>Still Curious?</h1>
-				<a href="https://github.com/Alicecold">
-					<div>
-						<img class="icon" src="aliceteacup.png" target="_blank">GitHub</img>
-					</div>
-				</a>
-				<a href="https://se.linkedin.com/in/alice-darner-55bb5a73">
-					<div>
-						<img class="icon" src="aliceteacup.png" target="_blank">Linkedin</img>
-					</div>
-				</a>
-				<a href="http://www.coroflot.com/alicecold">
-					<div>
-						<img class="icon" src="aliceteacup.png" target="_blank">Coroflot</img>
-					</div>
-				</a>
-				<a href="https://twitter.com/Alicecold">
-					<div>
-						<img class="icon" src="aliceteacup.png" target="_blank">Twitter</img>
-					</div>
-				</a>
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4"></div>
+					<a href="https://github.com/Alicecold">
+						<div>
+							<img class="icon" src="assets/aliceteacup.png" target="_blank">GitHub</img>
+						</div>
+					</a>
+					<a href="https://se.linkedin.com/in/alice-darner-55bb5a73">
+						<div>
+							<img class="icon" src="assets/aliceteacup.png" target="_blank">Linkedin</img>
+						</div>
+					</a>
+					<a href="http://www.coroflot.com/alicecold">
+						<div>
+							<img class="icon" src="assets/aliceteacup.png" target="_blank">Coroflot</img>
+						</div>
+					</a>
+					<a href="https://twitter.com/Alicecold">
+						<div>
+							<img class="icon" src="assets/aliceteacup.png" target="_blank">Twitter</img>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4"></div>
 			</div>
-		</a>
 		</div>
+	</div>
+	<script src="js/portfolio.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

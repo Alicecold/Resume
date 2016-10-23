@@ -6,14 +6,13 @@
     margin-left: auto;
     margin-right: auto;  
 }
+
 .viewer{
-    width: fit-content;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.viewer#frame{
+#frame{
+    width: fit-content;
     background-color: #F2F6BC;
     box-shadow: 2px 2px 5px black;
     border: 1px solid black;
@@ -22,16 +21,16 @@
 .art{
     max-height: 60vh;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 1px solid black;
 }
 
 .thumb{
     display: inline-block;
     height: 60px;
-    margin-left: 2px;
-    margin-right: 2px;
+    /*margin-left: 2px;
+    margin-right: 2px;*/
     margin-top: 0px;
 
     transition: opacity 0.5s linear;

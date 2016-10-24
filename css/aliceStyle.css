@@ -2,15 +2,15 @@ html,
 body {
     height: 100%;
     margin: 0px;
-    background: #A1B2C1;
+    background: #A7C1FF;
 }
 
 .alice{
     text-shadow: 0px 0px 1px black;
-    color: #F2F6BC;
+    color: #FDFEFD;
 }
 .alice a{
-    color: #F2F6BC;
+    color: #FDFEFD;
 }
 .alice h1 {
     font-family: CandL;
@@ -31,17 +31,17 @@ body {
 }
 
 #wrapper {
-    background: #A1B2C1;
-    background: linear-gradient( #A1B2C1, #4378A7);
+    background: #A7C1FF;
+    background: linear-gradient( #A7C1FF, #4D76D6);
     position: relative;
 }
 
 @keyframes beat {
     0% {
-        color: #F2F6BC;
+        color: #FDFEFD;
     }
     100% {
-        color: #A71B14;
+        color: #AF412A;
     }
 }
 
@@ -56,7 +56,7 @@ body {
     border-radius: 10%;
     display: block;
     box-shadow: 0px 0px 2px black;
-    background-color: #F2F6BC;;
+    background-color: #FDFEFD;
     padding: 10px;
 }
 
@@ -66,5 +66,5 @@ body {
     padding-top: 5%;
     font-size: 40px;
     text-align: center;
-    text-shadow: 2px 2px 10px #4378A7;
+    text-shadow: 2px 2px 10px #4D76D6;
 }

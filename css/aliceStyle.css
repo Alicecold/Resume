@@ -6,7 +6,7 @@ body {
 }
 
 .alice{
-    text-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 5px black;
     color: #FDFEFD;
 }
 .alice a{
@@ -47,8 +47,13 @@ body {
 
 .about {
     overflow: auto;
-    margin-bottom: 60vh;
+    padding-bottom: 60vh;
     padding-top: 10vh;
+
+    background: #AF412A no-repeat bottom left;
+    /*background-size: 100vw;*/
+    
+
 }
 
 .icon {

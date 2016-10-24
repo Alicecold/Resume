@@ -46,11 +46,9 @@ body {
 }
 
 .about {
-    /*max-width: 500px;*/
     overflow: auto;
-    /*margin-left: 100px;*/
-    /*margin-bottom: 300px;*/
-    /*padding-top: 10vh;*/
+    margin-bottom: 60vh;
+    padding-top: 10vh;
 }
 
 .icon {

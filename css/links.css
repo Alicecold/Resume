@@ -1,19 +1,14 @@
 .links{
     font-family: CandL;
-    width: fit-content;
     padding-top: 20vh;
     padding-bottom: 30vh;  
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
-.links div{
-    padding: 10px;
+.links a{
     display: inline-block;
     text-align: center;
-}
-.links a{
     transition: opacity 0.5s linear;
 }
 .links a:link{

@@ -1,10 +1,10 @@
 .portfolio{
-    width: 50%;
+    /*width: 50%;*/
     height: 100%;
     padding-top: 10vh;
     padding-bottom: 25vh;
-    margin-left: auto;
-    margin-right: auto;  
+    /*margin-left: auto;
+    margin-right: auto;  */
 }
 
 .viewer{
@@ -13,9 +13,9 @@
 
 #frame{
     width: fit-content;
-    background-color: #F2F6BC;
+    /*background-color: #F2F6BC;
     box-shadow: 2px 2px 5px black;
-    border: 1px solid black;
+    border: 1px solid black;*/
 }
 
 .art{

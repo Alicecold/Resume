@@ -6,7 +6,7 @@ body {
 }
 
 .alice{
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 5px #000000;
     color: #FDFEFD;
 }
 .alice a{
@@ -60,7 +60,7 @@ body {
     height: 100px;
     border-radius: 10%;
     display: block;
-    box-shadow: 0px 0px 2px black;
+    box-shadow: 0px 0px 2px #000000;
     background-color: #FDFEFD;
     padding: 10px;
 }

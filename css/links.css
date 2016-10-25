@@ -1,7 +1,8 @@
 .links{
     font-family: CandL;
     padding-top: 20vh;
-    padding-bottom: 30vh;  
+    height: 100%;
+    /*padding-bottom: 30vh;  */
     margin-left: auto;
     margin-right: auto;
 }

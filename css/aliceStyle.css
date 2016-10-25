@@ -5,6 +5,10 @@ body {
     background: #A7C1FF;
 }
 
+.page{
+    height: 100vh;
+}
+
 .alice{
     text-shadow: 0px 0px 5px #000000;
     color: #FDFEFD;
@@ -47,13 +51,12 @@ body {
 
 .about {
     overflow: auto;
-    padding-bottom: 60vh;
+    /*padding-bottom: 60vh;*/
     padding-top: 10vh;
+    height: 100%;
 
     background: #AF412A no-repeat bottom left;
     /*background-size: 100vw;*/
-    
-
 }
 
 .icon {

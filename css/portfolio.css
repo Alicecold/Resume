@@ -2,6 +2,8 @@
     height: 100%;
     padding-top: 10vh;
     padding-bottom: 25vh;
+    width: 100%;
+    /*background: #111133;*/
 }
 
 .viewer{

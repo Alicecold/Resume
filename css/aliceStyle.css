@@ -1,5 +1,5 @@
 html,
-body {
+body{
     height: 100%;
     margin: 0px;
     background: #A7C1FF;
@@ -38,6 +38,7 @@ body {
     background: #A7C1FF;
     background: linear-gradient( #A7C1FF, #4D76D6);
     position: relative;
+    height: fit-content;
 }
 
 @keyframes beat {

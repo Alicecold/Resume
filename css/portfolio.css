@@ -3,23 +3,27 @@
     padding-top: 10vh;
     padding-bottom: 25vh;
     width: 100%;
+    
     /*background: #111133;*/
 }
 
 .viewer{
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 
 #frame{
     width: fit-content;
+    background: white;
 }
 
 .art{
     max-height: 60vh;
     max-width: 100%;
     display: block;
-    /*margin-top: 10px;
-    margin-bottom: 10px;*/
     box-shadow: 0px 0px 5px #4D76D6;
     border: 1px solid #000000;
 }

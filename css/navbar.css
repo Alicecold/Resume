@@ -6,6 +6,7 @@
     position: fixed;
     bottom: 0;
     box-shadow: 0px 0px 10px #000000;
+    /*#4D76D6*/
     z-index: 20;
 }
 #navbar  a{

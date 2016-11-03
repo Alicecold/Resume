@@ -34,12 +34,12 @@ body{
     font-size: 15px;
 }
 
-#wrapper {
+/*#wrapper {
     background: #A7C1FF;
     background: linear-gradient( #A7C1FF, #4D76D6);
     position: relative;
     height: fit-content;
-}
+}*/
 
 @keyframes beat {
     0% {
@@ -56,8 +56,10 @@ body{
     padding-top: 10vh;
     height: 100%;
 
-    background: #AF412A no-repeat bottom left;
-    /*background-size: 100vw;*/
+    background: url("../assets/green.jpg");
+    /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .icon {

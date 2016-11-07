@@ -1,6 +1,17 @@
-function thumbling(thumb){
-    document.getElementById("view").src = thumb;
-}
+// function thumbling(thumb){
+//     document.getElementById("view").src = thumb;
+    
+// }
 
-// document.getElementById("thumb1").onclick = thumbling("flower_tree.jpg");
-// document.getElementById("thumb2").onclick = thumbling("pandora.jpg");
+$(document).ready(function(){
+    $('.thumb').click(function(){
+        $("#view").hide();
+    });
+
+    $('a.internallink').click(function(){
+        var linked = $($(this).attr('href'));
+        var to = linked.offset().top + $(window).scrollTop();
+        $(document.body).animate({scrollTop: to}, 2000);//'html, body'
+    });
+});
+

@@ -13,18 +13,22 @@
 	<link rel="stylesheet" type="text/css" href="css/links.css" />
 	<link rel="stylesheet" type="text/css" href="css/navbar.css" />
 	<link rel="stylesheet" type="text/css" href="css/aliceStyle.css" />
+
+	<script src="js/jquery-3.1.1.min.js" defer></script>
+	<script src="js/portfolio.js" defer></script>
+	<script src="js/bootstrap.min.js" defer></script>
 </head>
 
 <body>
 	<div id="navbar">
-		<a href="#welcome">Home</a>
-		<a href="#about">About Me</a>
-		<a href="#resume">Resume</a>
-		<a href="#portfolio">Portfolio</a>
-		<a href="#links">Links</a>
+		<a href="#welcome" class="internallink">Home</a>
+		<a href="#about" class="internallink">About Me</a>
+		<a href="#resume" class="internallink">Resume</a>
+		<a href="#portfolio" class="internallink">Portfolio</a>
+		<a href="#links" class="internallink">Links</a>
 	</div>
 	<div class="container-fluid" id="wrapper">
-		<a name="welcome"></a>
+		<a name="welcome" id="welcome"></a>
 		<div class="page">
 			<div class="row alice welcome">
 				<div class="col-md-4"> </div>
@@ -36,7 +40,7 @@
 				<div class="col-md-4"> </div>
 			</div>
 		</div>
-		<a name="about"></a>
+		<a name="about" id="about"></a>
 		<div class="page">
 			<div class="row alice about">
 				<div class="col-md-1 col-sm-1"></div>
@@ -49,7 +53,7 @@
 				<div class="col-md-6 col-sm-4"></div>
 			</div>
 		</div>
-		<a name="resume"></a>
+		<a name="resume" id="resume"></a>
 		<div class="page">
 			<div class="cv">
 				<div class="row">
@@ -98,7 +102,7 @@
 				</div>
 			</div>
 		</div>
-		<a name="portfolio"></a>
+		<a name="portfolio" id="portfolio"></a>
 		<div class="page alice portfolio">
 			<div class="row">
 				<div class="col-md-3 col-sm-2 col-xs-1"></div>
@@ -111,16 +115,18 @@
 				<div class="col-md-3 col-sm-2 col-xs-1"></div>
 				<div class=" viewer col-md-6 col-sm-8 col-xs-10">
 					<!--<img class="thumb" alt="A photograph with the pink flowers of a cherry tree." onclick="thumbling('assets/flower_tree.jpg')" src="assets/flower_tree.jpg"></img>-->
-					<img class="thumb" alt="A drawing with a tiny dragon nibbling on an orange." onclick="thumbling('assets/orangedragon-1.jpg')" src="assets/orangedragon-1.jpg"></img>
+					<!--<img class="thumb" alt="A drawing with a tiny dragon nibbling on an orange." onclick="thumbling('assets/orangedragon-1.jpg')" src="assets/orangedragon-1.jpg"></img>
 					<img class="thumb" alt="A concept image to illustrate the mood of the game Kravall." onclick="thumbling('assets/KravallWALLPAPER.jpg')" src="assets/KravallWALLPAPER.jpg"></img>
 					<img class="thumb" alt="An illustration with the silhuettes of two characters from an anime and a game respectively." onclick="thumbling('assets/yuna-ukyo.png')" src="assets/yuna-ukyo.png"></img>
 					<img class="thumb" alt="An greyscale drawing to show a concept of a character for an discontinued and unamed game." onclick="thumbling('assets/john.jpg')" src="assets/john.jpg"></img>
-					<img class="thumb" alt="A screenshot from the game Kravall showing the graphical user interface and the general mood." onclick="thumbling('assets/RiotGame-UI.png')" src="assets/RiotGame-UI.png"></img>
+					<img class="thumb" alt="A screenshot from the game Kravall showing the graphical user interface and the general mood." onclick="thumbling('assets/RiotGame-UI.png')" src="assets/RiotGame-UI.png"></img>-->
+					<img class="thumb" alt="A drawing with a tiny dragon nibbling on an orange." src="assets/orangedragon-1.jpg"></img>
+					<img class="thumb" alt="A concept image to illustrate the mood of the game Kravall." src="assets/KravallWALLPAPER.jpg"></img>
 				</div>
 				<div class="col-md-3 col-sm-2 col-xs-1"></div>
 			</div>
 		</div>
-		<a name="links"></a>
+		<a name="links" id="links"></a>
 		<div class="page alice links">
 			<div class="row">
 				<div class="col-md-3 col-sm-2 col-xs-1"></div>
@@ -152,8 +158,6 @@
 	</div>
 	</div>
 
-	<script src="js/portfolio.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

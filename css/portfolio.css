@@ -2,8 +2,8 @@
     /*height: 100%;*/
     padding-top: 10vh;
     padding-bottom: 25vh;
-    width: 100%;
-    /*background: #AF412A;*/
+    margin-left: 0;
+    width: 100vw;
     background: url("../assets/flower_tree.jpg");
     /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
     background-size: 100%;

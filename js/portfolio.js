@@ -1,8 +1,3 @@
-// function thumbling(thumb){
-//     document.getElementById("view").src = thumb;
-    
-// }
-
 $(document).ready(function(){
     $('.thumb').click(function(){
         $("#view").attr("src", $(this).attr("src"));

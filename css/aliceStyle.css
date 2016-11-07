@@ -39,6 +39,8 @@ body{
     background: linear-gradient( #A7C1FF, #4D76D6);
     position: relative;
     height: fit-content;
+    padding: 0;
+    width: 100vw;
 }
 
 @keyframes beat {
@@ -52,7 +54,6 @@ body{
 
 .about {
     overflow: auto;
-    /*padding-bottom: 60vh;*/
     padding-top: 10vh;
     height: 100%;
 

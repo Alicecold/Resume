@@ -5,7 +5,7 @@
 
 $(document).ready(function(){
     $('.thumb').click(function(){
-        $("#view").hide();
+        $("#view").attr("src", $(this).attr("src"));
     });
 
     $('a.internallink').click(function(){

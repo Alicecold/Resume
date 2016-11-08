@@ -12,30 +12,26 @@
 }
 #navbar li{
     display: inline-block;
+    padding: 0.5% 1%;
 }
-#navbar  a{
+#navbar a{
     color: #F4A6A2;
     font-size: 30px;
     margin: 0px;
-    padding: 1%;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: 0px;
     font-family: CandL;
     text-decoration: none;
-    transition: color 2s;
+    transition: color 1s;
 }
-#navbar a:hover{
+#navbar a:hover, #navbar a:focus{
     animation-name: beat;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    background: transparent;
     
 }
 #navbar .active a{  
     color: #AF412A;
 }
-
-/*#navbar .active a{
-    color: blue;
-}*/

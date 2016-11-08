@@ -13,20 +13,30 @@
 	<link rel="stylesheet" type="text/css" href="css/links.css" />
 	<link rel="stylesheet" type="text/css" href="css/navbar.css" />
 	<link rel="stylesheet" type="text/css" href="css/aliceStyle.css" />
-
 	<script src="js/jquery-3.1.1.min.js" defer></script>
-	<script src="js/portfolio.js" defer></script>
+
 	<script src="js/bootstrap.min.js" defer></script>
+	<script src="js/portfolio.js" defer></script>
 </head>
 
-<body>
-	<div id="navbar">
+<body data-spy: "scroll" data-target: ".navbar">
+	<nav class="navbar navbar-inverse navbar-fixed-bottom" id="navbar">
+		<ul class="nav">
+			<li><a href="#welcome" class="internallink">Home</a></li>
+			<li><a href="#about" class="internallink">About Me</a></li>
+			<li><a href="#resume" class="internallink">Resumé</a></li>
+			<li><a href="#portfolio" class="internallink">Portfolio</a></li>
+			<li><a href="#links" class="internallink">Links</a></li>
+		</ul>
+	</nav>
+	<!--<div id="navbar">
 		<a href="#welcome" class="internallink">Home</a>
 		<a href="#about" class="internallink">About Me</a>
 		<a href="#resume" class="internallink">Resume</a>
 		<a href="#portfolio" class="internallink">Portfolio</a>
 		<a href="#links" class="internallink">Links</a>
-	</div>
+	</div>-->
+	
 	<div class="container-fluid" id="wrapper">
 		<a name="welcome" id="welcome"></a>
 		<div class="page">
@@ -143,6 +153,7 @@
 					<a href="https://se.linkedin.com/in/alice-darner-55bb5a73">
 						<img class="icon" alt="A link to my Linkedin" src="assets/linkedin.svg" target="_blank">Linkedin</img>
 					</a>
+					<!--<script  type="text/javascript" src="http://www.coroflot.com/badge/548266"></script>-->
 					<a href="http://www.coroflot.com/alicecold">
 						<img class="icon" alt="A link to my Coroflot, which is a portfolio page." src="assets/Coroflot-icon.png" target="_blank">Coroflot</img>
 					</a>
@@ -155,7 +166,6 @@
 		</div>
 	</div>
 	</div>
-
 </body>
 
 </html>

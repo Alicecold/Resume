@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('body').scrollspy({target: '#navbar'});//
     $('.thumb').click(function(){
         $("#view").attr("src", $(this).attr("src"));
     });

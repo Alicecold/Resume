@@ -4,7 +4,7 @@
     padding-bottom: 25vh;
     margin-left: 0;
     width: 100vw;
-    background: url("../assets/flower_tree.jpg");
+    /*background: url("../assets/flower_tree.jpg");*/
     /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
     background-size: 100%;
     background-attachment: fixed;

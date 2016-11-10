@@ -1,25 +1,29 @@
 html,
-body{
+body {
     height: 100%;
     margin: 0px;
     background: #A7C1FF;
     position: relative;
 }
 
-.page{
+.page {
     height: 100vh;
+    min-height: fit-content;
 }
 
-.alice{
+.alice {
     text-shadow: 0px 0px 5px #000000;
     color: #FDFEFD;
 }
-.alice a{
+
+.alice a {
     color: #FDFEFD;
 }
+
 .alice h1 {
     font-family: CandL;
-    font-size: 40px;
+    font-size: 100px;
+    /*40*/
     margin: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -27,12 +31,14 @@ body{
 
 .alice h2 {
     font-family: CandL;
-    font-size: 20px;
+    font-size: 60px;
+    /*20*/
 }
 
 .alice p {
     font-family: CandL;
-    font-size: 15px;
+    font-size: 40px;
+    /*20*/
 }
 
 #wrapper {
@@ -57,15 +63,16 @@ body{
     overflow: auto;
     padding-top: 10vh;
     height: 100%;
-
-    /*background: url("../assets/green.jpg");*/
-    /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
-    background-size: 100%;
+    background: url("../assets/greenSMALL.jpg");
+    background-size: auto;
     background-attachment: fixed;
 }
 
 .icon {
-    height: 100px;
+    height: 150px;
+    /*100px*/
+    width: 150px;
+    /*100px*/
     border-radius: 10%;
     display: block;
     box-shadow: 0px 0px 2px #000000;
@@ -80,4 +87,143 @@ body{
     font-size: 40px;
     text-align: center;
     text-shadow: 2px 2px 10px #4D76D6;
+}
+
+@media (max-width: 480px) {
+    .alice h1 {
+        font-size: 50px;
+        /*40*/
+    }
+    .alice h2 {
+        font-size: 30px;
+        /*20*/
+    }
+    .alice p {
+        font-size: 20px;
+        /*20*/
+    }
+    .about {
+        background: url("../assets/greenSMALL.png");
+    }
+    .icon {
+        background: indigo;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .alice h1 {
+        font-size: 40px;
+        /*40*/
+    }
+    .alice h2 {
+        font-size: 30px;
+        /*20*/
+    }
+    .alice p {
+        font-size: 15px;
+        /*20*/
+    }
+    .about {
+        background-size: auto 100vw;
+    }
+    .icon {
+        height: 100px;
+        width: 100px;
+        background: chocolate;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .alice h2 {
+        font-size: 30px;
+        /*20*/
+    }
+    .alice p {
+        font-family: CandL;
+        font-size: 20px;
+        /*20*/
+    }
+    .about {
+        background-size: auto 100vh;
+    }
+    .icon {
+        background: gold;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    .alice h1 {
+        font-size: 40px;
+        /*40*/
+    }
+    .alice h2 {
+        font-size: 30px;
+        /*20*/
+    }
+    .alice p {
+        font-size: 20px;
+        /*20*/
+    }
+    .about {
+        background-size: 100vw auto;
+        background-repeat: no-repeat;
+    }
+    .icon {
+        height: 100px;
+        /*100px*/
+        width: 100px;
+        /*100px*/
+        background: blue;
+    }
+}
+
+@media (min-width: 1200px) {
+    .alice h1 {
+        font-size: 40px;
+        /*40*/
+    }
+    .alice h2 {
+        font-size: 30px;
+        /*20*/
+    }
+    .alice p {
+        font-size: 20px;
+        /*20*/
+    }
+    .about {
+        background-size: 100vw 100vh;
+    }
+    .icon {
+        height: 100px;
+        /*100px*/
+        width: 100px;
+        /*100px*/
+        background: deeppink;
+    }
+}
+
+@media (min-width: 1800px) {
+    .alice h1 {
+        font-size: 40px;
+        /*40*/
+    }
+    .alice h2 {
+        font-size: 30px;
+        /*20*/
+    }
+    .alice p {
+        font-size: 20px;
+        /*20*/
+    }
+    .about {
+        background: url("../assets/green.jpg");
+        background-size: 100vw 100vh;
+    }
+    .icon {
+        height: 100px;
+        /*100px*/
+        width: 100px;
+        /*100px*/
+        background: black;
+    }
 }

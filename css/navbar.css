@@ -1,4 +1,4 @@
-#navbar{
+#navbar {
     background-color: #FDFEFD;
     text-align: center;
     margin: 0px;
@@ -10,11 +10,13 @@
     /*#4D76D6*/
     z-index: 20;
 }
-#navbar li{
+
+#navbar li {
     display: inline-block;
     padding: 0.5% 1%;
 }
-#navbar a{
+
+#navbar a {
     color: #F4A6A2;
     font-size: 30px;
     margin: 0px;
@@ -23,15 +25,24 @@
     text-decoration: none;
     transition: color 1s;
 }
-#navbar a:hover, #navbar a:focus{
+
+#navbar a:hover,
+#navbar a:focus {
     animation-name: beat;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     background: transparent;
-    
 }
-#navbar .active a{  
+
+#navbar .active a {
     color: #AF412A;
+}
+
+@media (max-width: 480px) {
+    #navbar a {
+        font-size: calc(100vw / 17);
+        text-align: left;
+    }
 }

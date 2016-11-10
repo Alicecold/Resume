@@ -1,45 +1,60 @@
-.cv h1{
+.cv h1 {
     margin-left: auto;
     margin-right: auto;
 }
-.cvlittle{
+
+.cvlittle {
     font-family: CandL;
     text-align: right;
     /*display: block;*/
 }
-.cvlink{
+
+.cvlink {
     animation-name: download;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-@keyframes download{
-    0% {color: #FDFEFD;}
-    100% { color: #bcc3f6;}
+
+@keyframes download {
+    0% {
+        color: #FDFEFD;
+    }
+    100% {
+        color: #bcc3f6;
+    }
 }
 
-.box{
-    background: #FDFEFD; 
+.box {
+    background: #FDFEFD;
     padding: 10px;
     height: 100%;
-    margin: 10px;
+    /*margin: 10px;*/
+    margin: 5px;
     box-shadow: 0px 0px 10px #4D76D6;
     border: 1px solid #000000;
 }
 
-.box h1{
+.box h1 {
     font-family: CandL;
     font-size: 30px;
-    color:#AF412A;
+    color: #AF412A;
     padding: 0px;
     margin: 0px;
 }
 
-.box p{
+.box p {
     font-family: CandL;
     font-size: 15px;
-    color:#000000;
+    color: #000000;
     padding: 0px;
     margin: 0px;
+}
+
+@media (max-width: 480px) {
+    .box {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
 }

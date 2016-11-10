@@ -9,7 +9,6 @@ body {
 .page {
     height: 100vh;
     min-height: fit-content;
-    display: block;
 }
 
 .alice {

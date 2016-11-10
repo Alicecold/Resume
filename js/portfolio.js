@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('a.internallink').click(function(){
         var linked = $($(this).attr('href'));
         var to = linked.offset().top + $(window).scrollTop();
-        $('html, body').animate({scrollTop: to}, 2000);//'html, body'
+        $('html, body').animate({scrollTop: to}, 2000);
     });
 });
 

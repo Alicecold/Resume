@@ -58,3 +58,13 @@
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 997px) {
+    .box {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .page .cv {
+        margin-bottom: 50vh;
+    }
+}

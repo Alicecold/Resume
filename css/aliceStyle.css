@@ -105,9 +105,6 @@ body {
     .about {
         background: url("../assets/greenSMALL.png");
     }
-    .icon {
-        background: indigo;
-    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -129,7 +126,7 @@ body {
     .icon {
         height: 100px;
         width: 100px;
-        background: chocolate;
+        /*background: chocolate;*/
     }
 }
 
@@ -145,9 +142,6 @@ body {
     }
     .about {
         background-size: auto 100vh;
-    }
-    .icon {
-        background: gold;
     }
 }
 
@@ -173,7 +167,7 @@ body {
         /*100px*/
         width: 100px;
         /*100px*/
-        background: blue;
+        /*background: blue;*/
     }
 }
 
@@ -198,7 +192,7 @@ body {
         /*100px*/
         width: 100px;
         /*100px*/
-        background: deeppink;
+        /*background: deeppink;*/
     }
 }
 
@@ -224,6 +218,6 @@ body {
         /*100px*/
         width: 100px;
         /*100px*/
-        background: black;
+        /*background: black;*/
     }
 }

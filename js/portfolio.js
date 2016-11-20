@@ -1,14 +1,18 @@
-$(document).ready(function(){
-    $('body').scrollspy({target: '#navbar'});
+var isFirefox = typeof InstallTrigger !== 'undefined';
+$(document).ready(function () {
+    $('body').scrollspy({ target: '#navbar' });
 
-    $('.thumb').click(function(){
+    $('.thumb').click(function () {
         $("#view").attr("src", $(this).attr("src"));
     });
 
-    $('a.internallink').click(function(){
+    $('a.internallink').click(function () {
         var linked = $($(this).attr('href'));
+
         var to = linked.offset().top + $(window).scrollTop();
-        $('html, body').animate({scrollTop: to}, 2000);
+        if (isFirefox)
+            to = linked.offset().top + 15;
+        $('html, body').animate({ scrollTop: to }, 2000);
     });
 });
 

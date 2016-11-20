@@ -1,22 +1,12 @@
 .portfolio {
-    /*height: 100%;
     padding-top: 10vh;
     padding-bottom: 25vh;
-    margin-left: 0;
-    width: 100vw;
     background: url("../assets/flower_treeSMALL.png");
-    /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens
+    /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
     background-size: auto;
     background-attachment: fixed;
 
-    height: 100%;*/
-
-    overflow: auto;
-    padding-top: 10vh;
-    width: 100%;
-    background: url("../assets/flower_treeSMALL.png");
-    background-size: auto;
-    background-attachment: fixed;
+    height: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -42,7 +32,6 @@
 .art {
     max-height: 60vh;
     max-width: 100%;
-    /*box-shadow: 0px 0px 5px #4D76D6;*/
     border: 1px solid #FDFEFD;
 }
 
@@ -52,7 +41,6 @@
     opacity: 0.5;
     
     filter: blur(1px);
-    /*border: 1px solid #000000;*/
 }
 .white{
     display: inline-block;

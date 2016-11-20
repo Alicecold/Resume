@@ -58,3 +58,9 @@
         margin-bottom: 10px;
     }
 }
+
+@media print{
+    .cvlittle{
+        display: none;
+    }
+}

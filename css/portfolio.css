@@ -6,7 +6,7 @@
     width: 100vw;
     background: url("../assets/flower_treeSMALL.png");
     /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
-    background-size: 100%;
+    background-size: auto;
     background-attachment: fixed;
 
     height: 100%;
@@ -20,8 +20,8 @@
 
 .viewer {
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     text-align: center;
 }
 
@@ -40,15 +40,29 @@
 }
 
 .thumb {
-    display: inline-block;
     height: 60px;
-    margin-top: 0px;
-    transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear, filter 0.5s linear;
     opacity: 0.5;
+    
+    filter: blur(1px);
+    /*border: 1px solid #000000;*/
+}
+.white{
+    display: inline-block;
+    background: white;
+    height: 60px;
+    width: fit-content;
+
+    margin-top: 0px;
     border: 1px solid #000000;
 }
-
 .thumb:hover {
     opacity: 1.0;
-    border: 1px solid #000000;
+    filter: blur(0px);
+}
+
+@media print{
+.portfolio{
+    display:none;
+}
 }

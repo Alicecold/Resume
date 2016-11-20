@@ -67,3 +67,12 @@
         padding-top: 30vh;
     }
 }
+
+@media print{
+    .welcome img{
+        display: none;
+    }
+    .welcome{
+        padding: 0px;
+    }
+}

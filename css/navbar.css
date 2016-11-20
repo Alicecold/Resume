@@ -41,8 +41,18 @@
 }
 
 @media (max-width: 480px) {
+    #navbar{
+        top: 0;
+        bottom: 100vh;
+    }
     #navbar a {
         font-size: calc(100vw / 17);
         text-align: left;
+    }
+}
+
+@media print {
+    #navbar {
+        display: none;
     }
 }

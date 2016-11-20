@@ -20,3 +20,16 @@
     text-decoration: none;
     opacity: 1.0;
 }
+
+@media print{
+    .links h1{
+        display: none;
+    }
+    .links img{
+        display: none;
+    }
+    .links a{
+        display: block;
+        text-align: left;
+    }
+}

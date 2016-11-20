@@ -14,5 +14,10 @@ $(document).ready(function () {
             to = linked.offset().top + 15;
         $('html, body').animate({ scrollTop: to }, 2000);
     });
+
+    $("#print").click(function () {
+        window.print();
+        
+    });
 });
 

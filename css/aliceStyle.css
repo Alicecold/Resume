@@ -39,7 +39,7 @@ body {
 
 #wrapper {
     background: #A7C1FF;
-    background: linear-gradient( #A7C1FF, #4D76D6);
+    /*background: linear-gradient( #A7C1FF, #4D76D6);*/
     position: relative;
     height: fit-content;
 }

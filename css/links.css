@@ -10,6 +10,7 @@
     display: inline-block;
     text-align: center;
     transition: opacity 0.5s linear;
+    
 }
 .links a:link{
     opacity: 0.5;
@@ -20,6 +21,11 @@
     text-decoration: none;
     opacity: 1.0;
 }
+    .links img{
+        -webkit-filter: grayscale(100%) contrast(500%);
+        -ms-filter: grayscale(100%) contrast(500%);
+        filter: grayscale(100%) contrast(500%) ;
+    }
 
 @media print{
     .links h1{

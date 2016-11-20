@@ -31,10 +31,13 @@
 
 .thumb {
     height: 60px;
+    
     transition: opacity 0.5s linear, filter 0.5s linear;
     opacity: 0.5;
-    
-    filter: blur(1px);
+
+    -webkit-filter: blur(1px);
+    -ms-filter:     blur(1px);
+    filter:         blur(1px);
 }
 .white{
     display: inline-block;
@@ -47,7 +50,9 @@
 }
 .thumb:hover {
     opacity: 1.0;
-    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -ms-filter:     blur(0px);
+    filter:         blur(0px);
 }
 
 @media print{
@@ -57,9 +62,7 @@
 }
 
 @media (max-width: 480px) {
-
     .portfolio {
-    /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
     background-size: auto 100vh;
     background-attachment: fixed;
 }

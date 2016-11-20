@@ -3,17 +3,13 @@
     padding-bottom: 25vh;
     background: url("../assets/flower_treeSMALL.png");
     /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
-    background-size: auto;
+    background-size: 100vw 100vh;
     background-attachment: fixed;
 
     height: 100%;
 }
 
-@media (min-width: 1200px) {
-    .portfolio{
-        background: url("../assets/flower_tree.jpg");
-    }
-}
+
 
 .viewer {
     padding: 10px;
@@ -55,7 +51,36 @@
 }
 
 @media print{
-.portfolio{
-    display:none;
+    .portfolio{
+        display:none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .portfolio {
+    /*TODO: This should be made so that it is based on height on small screens and stay on width on large screens*/
+    background-size: auto 100vh;
+    background-attachment: fixed;
+}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .portfolio {
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+}
+@media (min-width: 1200px) {
+    .portfolio{
+        background: url("../assets/flower_tree.jpg");
+            background-size: 100vw 100vh;
+    background-attachment: fixed;
+    }
+}
+@media (min-width: 1800px) {
+    .portfolio {
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
 }

@@ -99,7 +99,7 @@ body {
         font-size: 30px;
     }
     .alice p {
-        font-size: 20px;
+        font-size: 15px;
     }
     .icon{
         height: 100px;
@@ -130,6 +130,9 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+        .alice h1 {
+        font-size: 40px;
+    }
     .alice h2 {
         font-size: 30px;
     }
@@ -139,6 +142,10 @@ body {
     }
     .about {
         background-size: auto 100vh;
+    }
+        .icon {
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -153,8 +160,7 @@ body {
         font-size: 20px;
     }
     .about {
-        background-size: 100vw auto;
-        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
     }
     .icon {
         height: 100px;
@@ -183,20 +189,24 @@ body {
 
 @media (min-width: 1800px) {
     .alice h1 {
-        font-size: 40px;
+        font-size: 80px;
     }
     .alice h2 {
-        font-size: 30px;
+        font-size: 50px;
     }
     .alice p {
-        font-size: 20px;
+        font-size: 30px;
     }
     .about {
         background: url("../assets/green.jpg");
         background-size: 100vw 100vh;
+        background-attachment: fixed;
     }
     .icon {
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
+    }
+    .script {
+        font-size: 80px;
     }
 }

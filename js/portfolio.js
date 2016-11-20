@@ -15,9 +15,12 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: to }, 2000);
     });
 
+    $("#icon").click(function () {
+        $(this).toggleClass("snurr");
+    });
+    
     $("#print").click(function () {
         window.print();
-        
     });
 });
 

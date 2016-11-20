@@ -15,7 +15,7 @@
     transform: rotateY(0deg);
 }
 
-.welcome img:hover {
+.welcome .snurr {
     transform: rotateY(360deg);
 }
 
@@ -35,7 +35,6 @@
         position: relative;
         top: 0px;
         padding-top: 10vh;
-        /*padding-bottom: 40vh;*/
         text-align: center;
     }
 }
@@ -45,7 +44,6 @@
         position: relative;
         top: 0px;
         padding-top: 10vh;
-        /*padding-bottom: 40vh;*/
         text-align: center;
     }
 }

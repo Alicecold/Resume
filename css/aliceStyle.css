@@ -1,10 +1,14 @@
 html,
 body {
     height: 100%;
-    margin: 0px;
     background: #A7C1FF;
     position: relative;
+    /*overflow-x: hidden;*/
 }
+
+/*.container-fluid{
+    margin-right: 0px !important;
+}*/
 
 .page {
     height: 100vh;
@@ -46,8 +50,6 @@ body {
     background: linear-gradient( #A7C1FF, #4D76D6);
     position: relative;
     height: fit-content;
-    padding: 0;
-    width: 100vw;
 }
 
 @keyframes beat {
@@ -102,15 +104,12 @@ body {
 @media (max-width: 480px) {
     .alice h1 {
         font-size: 50px;
-        /*40*/
     }
     .alice h2 {
         font-size: 30px;
-        /*20*/
     }
     .alice p {
         font-size: 20px;
-        /*20*/
     }
     .icon{
         height: 100px;
@@ -124,15 +123,12 @@ body {
 @media (min-width: 481px) and (max-width: 767px) {
     .alice h1 {
         font-size: 40px;
-        /*40*/
     }
     .alice h2 {
         font-size: 30px;
-        /*20*/
     }
     .alice p {
         font-size: 15px;
-        /*20*/
     }
     .about {
         background-size: auto 100vw;
@@ -140,19 +136,16 @@ body {
     .icon {
         height: 100px;
         width: 100px;
-        /*background: chocolate;*/
     }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
     .alice h2 {
         font-size: 30px;
-        /*20*/
     }
     .alice p {
         font-family: CandL;
         font-size: 20px;
-        /*20*/
     }
     .about {
         background-size: auto 100vh;
@@ -162,15 +155,12 @@ body {
 @media (min-width: 980px) and (max-width: 1199px) {
     .alice h1 {
         font-size: 40px;
-        /*40*/
     }
     .alice h2 {
         font-size: 30px;
-        /*20*/
     }
     .alice p {
         font-size: 20px;
-        /*20*/
     }
     .about {
         background-size: 100vw auto;
@@ -178,50 +168,38 @@ body {
     }
     .icon {
         height: 100px;
-        /*100px*/
         width: 100px;
-        /*100px*/
-        /*background: blue;*/
     }
 }
 
 @media (min-width: 1200px) {
     .alice h1 {
         font-size: 40px;
-        /*40*/
     }
     .alice h2 {
         font-size: 30px;
-        /*20*/
     }
     .alice p {
         font-size: 20px;
-        /*20*/
     }
     .about {
         background-size: 100vw 100vh;
     }
     .icon {
         height: 100px;
-        /*100px*/
         width: 100px;
-        /*100px*/
-        /*background: deeppink;*/
     }
 }
 
 @media (min-width: 1800px) {
     .alice h1 {
         font-size: 40px;
-        /*40*/
     }
     .alice h2 {
         font-size: 30px;
-        /*20*/
     }
     .alice p {
         font-size: 20px;
-        /*20*/
     }
     .about {
         background: url("../assets/green.jpg");
@@ -229,9 +207,6 @@ body {
     }
     .icon {
         height: 100px;
-        /*100px*/
         width: 100px;
-        /*100px*/
-        /*background: black;*/
     }
 }

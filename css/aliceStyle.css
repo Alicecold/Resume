@@ -72,6 +72,14 @@ body {
     padding: 10px;
 }
 
+.about img{
+    width: 300px;
+    border: 5px solid #FDFEFD;
+    box-shadow: 2px 1px 5px #000000;
+    transform: rotateZ(5deg);
+    margin-left: 50px;
+    margin-top: 20px;
+}
 .script {
     font-family: script;
     margin: 0px;
@@ -82,13 +90,24 @@ body {
 }
 
 @media print {
+    html, body { height: auto; }
     .page{
         height: fit-content;
+        min-height: auto;
     }
 
     .about {
         padding: 0px;
+        page-break-after: always;
+        margin-bottom: 50vh;
     }
+    #wrapper {
+    height: auto;
+}
+.about img{
+    width: 300px;
+    transform: rotateZ(0deg);
+}
 }
 
 @media (max-width: 480px) {
@@ -99,7 +118,8 @@ body {
         font-size: 30px;
     }
     .alice p {
-        font-size: 15px;
+        font-size: 14px;
+        z-index: 2;
     }
     .icon{
         height: 100px;
@@ -107,7 +127,17 @@ body {
     }
     .about {
         background: url("../assets/greenSMALL.png");
+            background-attachment: fixed;
+        overflow: hidden;
     }
+    .about img{
+        position: absolute;
+        top: 380px;
+        left: 150px;
+    width: 120px;
+    margin-bottom: 50px;
+            z-index: 1;
+}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -138,7 +168,7 @@ body {
     }
     .alice p {
         font-family: CandL;
-        font-size: 20px;
+        font-size: 15px;
     }
     .about {
         background-size: auto 100vh;
@@ -147,6 +177,12 @@ body {
         height: 100px;
         width: 100px;
     }
+
+        .about img{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {

@@ -59,6 +59,27 @@
     .portfolio{
         display:none;
     }
+    .viewer {
+display:none;
+}
+
+#frame {
+display:none;
+}
+
+.art {
+display:none;
+}
+
+.thumb {
+display:none;
+}
+.white{
+display:none;
+}
+.thumb:hover {
+display:none;
+}
 }
 
 @media (max-width: 480px) {

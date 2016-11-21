@@ -83,14 +83,7 @@
     }
 }
 
-@media print{
-    .cvlittle{
-        display: none;
-    }
-    .box {
-        border: none;
-    }
-}
+
 
 @media (min-width: 1800px) {
     .box h1 {
@@ -104,5 +97,15 @@
     }
     .box p, .box ol {
         font-size: 30px;
+    }
+}
+
+@media print{
+    .cvlittle{
+        display: none;
+        margin: 0px;
+    }
+    .box {
+        border: none;
     }
 }

@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    background: #A7C1FF;
+    background: #5B5C6E;
     position: relative;
 }
 
@@ -38,8 +38,8 @@ body {
 }
 
 #wrapper {
-    background: #A7C1FF;
-    /*background: linear-gradient( #A7C1FF, #4D76D6);*/
+    background: #5B5C6E;
+    background: linear-gradient( #5B5C6E, #2F3F61);
     position: relative;
     height: fit-content;
 }
@@ -86,29 +86,11 @@ body {
     padding-top: 5%;
     font-size: 40px;
     text-align: center;
-    text-shadow: 2px 2px 10px #4D76D6;
+    text-shadow: 2px 2px 10px #2F3F61;
 }
 
-@media print {
-    html, body { height: auto; }
-    .page{
-        height: fit-content;
-        min-height: auto;
-    }
 
-    .about {
-        padding: 0px;
-        page-break-after: always;
-        margin-bottom: 50vh;
-    }
-    #wrapper {
-    height: auto;
-}
-.about img{
-    width: 300px;
-    transform: rotateZ(0deg);
-}
-}
+
 
 @media (max-width: 480px) {
     .alice h1 {
@@ -245,4 +227,25 @@ body {
     .script {
         font-size: 80px;
     }
+}
+
+@media print {
+    html, body { height: auto; }
+    .page{
+        height: fit-content;
+        min-height: auto;
+    }
+
+    .about {
+        padding: 0px;
+        page-break-after: always;
+        margin-bottom: 50vh;
+    }
+    #wrapper {
+    height: auto;
+    }
+.about img{
+    width: 300px;
+    transform: rotateZ(0deg);
+}
 }

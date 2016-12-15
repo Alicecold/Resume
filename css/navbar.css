@@ -52,5 +52,6 @@
 @media print {
     #navbar {
         display: none;
+        margin: 0px;
     }
 }

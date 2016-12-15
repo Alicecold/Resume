@@ -27,21 +27,26 @@
         filter: grayscale(100%) contrast(500%) ;
     }
 
-@media print{
-    .links h1{
-        display: none;
-    }
-    .links img{
-        display: none;
-    }
-    .links a{
-        display: block;
-        text-align: left;
-    }
-}
 
 @media (min-width: 1800px) {
 .links a{
     font-size: 30px;
 }
+}
+
+
+@media print{
+    .links h1{
+        display: none;
+        margin: 0px;
+    }
+    .links img{
+        display: none;
+        margin: 0px;
+    }
+    .links a{
+        display: block;
+        text-align: left;
+        margin: 0px;
+    }
 }

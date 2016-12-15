@@ -19,7 +19,7 @@
 #frame {
     background: #000000;
     ;
-    box-shadow: 0px 0px #4D76D6;
+    box-shadow: 0px 0px #2F3F61;
     border: 1px solid #FDFEFD;
 }
 
@@ -55,32 +55,7 @@
     filter:         blur(0px);
 }
 
-@media print{
-    .portfolio{
-        display:none;
-    }
-    .viewer {
-display:none;
-}
 
-#frame {
-display:none;
-}
-
-.art {
-display:none;
-}
-
-.thumb {
-display:none;
-}
-.white{
-display:none;
-}
-.thumb:hover {
-display:none;
-}
-}
 
 @media (max-width: 480px) {
     .portfolio {
@@ -106,5 +81,39 @@ display:none;
     .portfolio {
     background-size: 100vw 100vh;
     background-attachment: fixed;
+}
+}
+
+@media print{
+    .portfolio{
+        display:none;
+        margin: 0px;
+    }
+    .viewer {
+display:none;
+margin: 0px;
+}
+
+#frame {
+display:none;
+margin: 0px;
+}
+
+.art {
+display:none;
+margin: 0px;
+}
+
+.thumb {
+display:none;
+margin: 0px;
+}
+.white{
+display:none;
+margin: 0px;
+}
+.thumb:hover {
+display:none;
+margin: 0px;
 }
 }
